@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Javascript algorithms and data structures",
   "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,6 @@
   },
   "homepage": "https://github.com/bayramucuncu/javascript#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^25.5.4"
   }
 }
