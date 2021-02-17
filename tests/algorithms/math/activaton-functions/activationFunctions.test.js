@@ -19,8 +19,9 @@ describe("activationFunctions", () => {
     });
 
     it("should return leaky relu values", ()=>{
-        expect(activationFunctions.leakyRelu(0)).toBe(0);
-        expect(activationFunctions.leakyRelu(1)).toBe(1);
-        expect(activationFunctions.leakyRelu(-1,1)).toBe(-1);
+        expect(activationFunctions.leakyRelu(0) === 0).toBeTruthy();
+        expect(activationFunctions.leakyRelu(1) === 1).toBeTruthy();
+        expect(activationFunctions.leakyRelu(-1,1) === -1).toBeTruthy();
+        expect(activationFunctions.leakyRelu(-1,0) === 0).toBeTruthy();
     });
 })
