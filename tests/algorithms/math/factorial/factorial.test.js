@@ -1,4 +1,4 @@
-const factorial = require("../../src/algorithms/factorial");
+const factorial = require("../../../../src/algorithms/math/factorial/factorial");
 
 describe("factorial()", () => {
     it("should return factorial of number", ()=>{

@@ -1,4 +1,4 @@
-const factorialRecursive = require("../../src/algorithms/factorial");
+const factorialRecursive = require("../../../../src/algorithms/math/factorial/factorial");
 
 describe("factorialRecursive()", () => {
     it("should return factorial of a number", ()=>{
